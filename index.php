@@ -53,23 +53,32 @@ class Local_Mail {
 				echo ' [ <strong><a href="?clear_all=true" onclick="return confirm(\'Are you sure?\');">CLEAR ALL</a></strong> ]';
 				echo '</p>' . "\n";
 				
-				echo '<div style="height:100%;overflow:scroll;padding:5px 20px;background-color:#faf9f7;border:1px solid #ccc;">' . "\n";
+				echo '<div style="height:100%;overflow:scroll;padding:0;background-color:#faf9f7;border:1px solid #ccc;">' . "\n";
 				
 //				var_dump( $email ); return;
 				if ( is_array( $email ) ) {
-					foreach ( $email as $mail ) :
-						$mail = htmlspecialchars( $mail );
-						echo "<pre>$mail</pre>\n";
+					$counter = 0;
+					foreach ( $email as $key => $mail ) : $counter++;
+						$style = ( $counter % 2 === 0 ) ? 'background-color:#efefef;' : 'background-color:#f9f9f9;';
+						$mail  = htmlspecialchars( $mail );
+						echo "<pre style='$style'>$mail</pre>\n";
 					endforeach;
 				}
 				else {
-					echo "<pre>\n";
 					
 					$email = htmlspecialchars( $email );
 					// MATCH: --2A6C57A7370.
-					echo preg_replace( '/(-{2}[a-z0-9]{11}[.])/i', "</pre>\n\n<pre style='border-top:5px double #939393; padding-top:20px'>\n", $email );
+					//echo preg_replace( '/(-{2}[a-z0-9]{11}[.])/i', "</pre>\n\n<pre style='border-top:5px double #939393; padding-top:20px'>\n", $email, -1, $count );
+					$array = preg_split( '/(-{2}[a-z0-9]{11}[.])/i', $email );
 					
-					echo "</pre>\n";
+					$counter = 0;
+					foreach ( $array as $key => $mail ) : $counter++;
+						$style = ( $counter % 2 === 0 ) ? 'background-color:#efefef;' : 'background-color:#f9f9f9;';
+						
+						echo "<pre style='border-top:1px solid #DEDEDE;padding:10px 20px;$style'>\n";
+							echo $mail;
+						echo "</pre>\n";
+					endforeach;
 				}
 				
 				echo '</div>';
@@ -108,7 +117,7 @@ $email = new Local_Mail;
                 <?php $email->output(); ?>
                 
                 <footer>
-                	Built by <a href="http://austin.passy.co">Frosty</a>
+                	<p>Built by <a href="http://austin.passy.co">Frosty</a></p>
                 </footer>
 
             </div> <!-- #main -->
