@@ -4,18 +4,57 @@
  */
 class Local_Mail {
 	
+	/** Singleton *************************************************************/
+	private static $instance;
+	
 	private $mail;
+
+	/**
+	 * Main Instance
+	 *
+	 * @staticvar 	array 	$instance
+	 * @return 		The one true instance
+	 */
+	public static function instance() {
+		if ( ! isset( self::$instance ) ) {
+			self::$instance = new self;
+			self::$instance->init();
+		}
+		return self::$instance;
+	}
 	
 	/* To infinity and beyond */
-	function __construct() {
+	function init() {
 		$this->mail = isset( $_GET['mail'] ) ? $_GET['mail'] : '/var/mail/austinpassy';
 		$this->session();
 	}
 	
 	/** Session */
 	function session() {
+		
 		if ( session_id() === '' ) {
 			session_start();
+		}
+	}
+	
+	/** Cleared? */
+	function is_cleared() {
+		
+		if ( isset( $_GET['clear_all'] ) && 'true' === $_GET['clear_all'] ) {
+			return true;
+		}
+		else {
+			return false;
+		}
+	}
+
+	/** Redirect */
+	function meta_refresh() {
+		
+		if ( $this->is_cleared() ) {
+			$url  = @( $_SERVER["HTTPS"] != 'on' ) ? 'http://' . $_SERVER["SERVER_NAME"] : 'https://' . $_SERVER["SERVER_NAME"];
+			$url .= ( $_SERVER["SERVER_PORT"] !== 80 ) ? ":" . $_SERVER["SERVER_PORT"] : "";
+			echo '<meta http-equiv="refresh" content="7; url=' . $url . '">';
 		}
 	}
 
@@ -24,7 +63,7 @@ class Local_Mail {
 		$fileCleared = false;
 		
 		// Clear file?
-		if ( isset( $_GET['clear_all'] ) && 'true' === $_GET['clear_all'] ) {
+		if ( $this->is_cleared() ) {
 			$handle = fopen( $this->mail, "w" );
 			fclose( $handle );
 			$fileCleared = true;
@@ -95,7 +134,14 @@ class Local_Mail {
 	
 };
 
-$email = new Local_Mail;
+/**
+ * Initiate.
+ *
+ */
+function LOCAL_MAIL() {
+	return Local_Mail::instance();
+}
+LOCAL_MAIL();
 
 ?><!DOCTYPE html>
 <html>
@@ -105,6 +151,7 @@ $email = new Local_Mail;
         <title></title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width">
+        <?php LOCAL_MAIL()->meta_refresh(); ?>
 
         <link rel="stylesheet" href="css/normalize.min.css">
         <link rel="stylesheet" href="css/main.css">
@@ -114,7 +161,7 @@ $email = new Local_Mail;
         <div class="main-container">
             <div class="main wrapper clearfix">
                 <h3>Local E-Mail</h3>
-                <?php $email->output(); ?>
+                <?php LOCAL_MAIL()->output(); ?>
                 
                 <footer>
                 	<p>Built by <a href="http://austin.passy.co">Frosty</a></p>
