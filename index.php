@@ -43,9 +43,7 @@ class Local_Mail {
 		if ( isset( $_GET['clear_all'] ) && 'true' === $_GET['clear_all'] ) {
 			return true;
 		}
-		else {
-			return false;
-		}
+		return false;
 	}
 
 	/** Redirect */
@@ -54,7 +52,7 @@ class Local_Mail {
 		if ( $this->is_cleared() ) {
 			$url  = @( $_SERVER["HTTPS"] != 'on' ) ? 'http://' . $_SERVER["SERVER_NAME"] : 'https://' . $_SERVER["SERVER_NAME"];
 			$url .= ( $_SERVER["SERVER_PORT"] !== 80 ) ? ":" . $_SERVER["SERVER_PORT"] : "";
-			echo '<meta http-equiv="refresh" content="7; url=' . $url . '">';
+			echo '<meta http-equiv="refresh" content="4; url=' . $url . '">';
 		}
 	}
 
