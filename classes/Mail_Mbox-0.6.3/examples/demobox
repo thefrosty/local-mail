@@ -1,0 +1,90 @@
+From - Thu Jun 22 18:09:01 2006
+X-Account-Key: account4
+X-UIDL: UID20394-1133961700
+X-Mozilla-Status: 0001
+X-Mozilla-Status2: 00000000
+Return-Path: <xxxx@abcdefg-test.com>
+X-Original-To: cweiske@cweiske.de
+Delivered-To: cweiske@cweiske.de
+X-Greylist: delayed 1778 seconds by postgrey-1.21 at d80-237-146-62.dds.hosteurope.de; Thu, 22 Jun 2006 18:07:43 CEST
+Received: from fallback-mx1.atl.registeredsite.com (fallback-mx1.atl.registeredsite.com [64.224.219.95])
+	by mail.cweiske.de (Postfix) with ESMTP id 92DF53F8A003
+	for <cweiske@cweiske.de>; Thu, 22 Jun 2006 18:07:43 +0200 (CEST)
+Received: from mail24.atl.registeredsite.com (mail24.atl.registeredsite.com [216.247.37.44])
+	by fallback-mx1.atl.registeredsite.com (8.12.11.20060308/8.12.11) with ESMTP id k5MFZecD006152
+	for <cweiske@cweiske.de>; Thu, 22 Jun 2006 11:35:40 -0400
+Received: from imta01a2.registeredsite.com (imta01a2.registeredsite.com [64.225.255.10])
+	by mail24.atl.registeredsite.com (8.12.11.20060308/8.12.11) with ESMTP id k5MFZaUT012752
+	for <cweiske@cweiske.de>; Thu, 22 Jun 2006 11:35:36 -0400
+Received: from [10.0.0.27] ([207.191.201.224])
+          by imta01a2.registeredsite.com with ESMTP
+          id <20060622153536.OUNZ4714.imta01a2.registeredsite.com@[10.0.0.27]>
+          for <cweiske@cweiske.de>; Thu, 22 Jun 2006 11:35:36 -0400
+Message-ID: <449AB8C7.1000104@abcdefg-test.com>
+Date: Thu, 22 Jun 2006 10:35:35 -0500
+From: Jay Vavra <jvavra@anderson-bogert.com>
+User-Agent: Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US; rv:1.8.0.4) Gecko/20060516 Thunderbird/1.5.0.4 Mnenhy/0.7.4.0
+MIME-Version: 1.0
+To: cweiske@cweiske.de
+Subject: This is the first message
+Content-Type: text/plain; charset=ISO-8859-1; format=flowed
+Content-Transfer-Encoding: 7bit
+
+My own hands[TM]
+
+From - Thu Jun 22 22:10:17 2006
+X-Account-Key: account4
+X-UIDL: UID20419-1133961700
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+Return-Path: <u_ortmann@gmx.de>
+X-Original-To: cweiske@cweiske.de
+Delivered-To: cweiske@cweiske.de
+Received: from mail4.ewetel.de (mail4.ewetel.de [212.6.122.29])
+	by mail.cweiske.de (Postfix) with ESMTP id 9EB743F8A003
+	for <cweiske@cweiske.de>; Thu, 22 Jun 2006 22:02:25 +0200 (CEST)
+Received: from [192.168.178.25] (dynadsl-080-228-67-242.ewetel.net [80.228.67.242])
+	by mail4.ewetel.de (8.12.1/8.12.9) with ESMTP id k5MK2OS2006524
+	for <cweiske@cweiske.de>; Thu, 22 Jun 2006 22:02:24 +0200 (MEST)
+Message-ID: <449AF74D.3030803@gmx.de>
+Date: Thu, 22 Jun 2006 22:02:21 +0200
+From: Some Name <some_name@gmx.de>
+User-Agent: Thunderbird 1.5.0.4 (Windows/20060516)
+MIME-Version: 1.0
+To: cweiske@cweiske.de
+Subject: Oh my god
+Content-Type: text/plain; charset=ISO-8859-15; format=flowed
+Content-Transfer-Encoding: 7bit
+X-CheckCompat: OK
+
+neXus MIME Mail - PHP/5.1.1
+
+From - Fri Jun 23 06:55:39 2006
+X-Account-Key: account4
+X-UIDL: UID20427-1133961700
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+Return-Path: <somebody@yandex.ru>
+X-Original-To: cweiske@cweiske.de
+Delivered-To: cweiske@cweiske.de
+X-Greylist: delayed 720 seconds by postgrey-1.21 at d80-237-146-62.dds.hosteurope.de; Fri, 23 Jun 2006 00:32:12 CEST
+Received: from mx18.yandex.ru (smtp2.yandex.ru [213.180.200.18])
+	by mail.cweiske.de (Postfix) with ESMTP id 0E7213F8A003
+	for <cweiske@cweiske.de>; Fri, 23 Jun 2006 00:32:12 +0200 (CEST)
+Received: from ip16.174.adsl.wplus.ru ([195.131.174.16]:54797 "EHLO
+	[195.131.174.16]" smtp-auth: "pluton131" TLS-CIPHER: <none>
+	TLS-PEER-CN1: <none>) by mail.yandex.ru with ESMTP id S3377100AbWFVWUF
+	(ORCPT <rfc822;cweiske@cweiske.de>); Fri, 23 Jun 2006 02:20:05 +0400
+X-Comment: RFC 2476 MSA function at smtp2.yandex.ru logged sender identity as: pluton131
+Message-ID: <449B1794.20706@yandex.ru>
+Date:	Fri, 23 Jun 2006 02:20:04 +0400
+From: Spari <somebody@yandex.ru>
+User-Agent: Mozilla/5.0 (Windows; U; Windows NT 5.1; ru; rv:1.8.0.4) Gecko/20060516 Mozilla Thunderbird/1.5 Mnenhy/0.7.4.0
+MIME-Version: 1.0
+To: cweiske@cweiske.de
+Subject: Hello my dear!
+X-Enigmail-Version: 0.94.0.0
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+I just wanted to say hello

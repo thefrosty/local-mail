@@ -1,0 +1,356 @@
+From - Thu Jun 22 18:09:01 2006
+X-Account-Key: account4
+X-UIDL: UID20394-1133961700
+X-Mozilla-Status: 0001
+X-Mozilla-Status2: 00000000
+Return-Path: <xxxx@abcdefg-test.com>
+X-Original-To: cweiske@cweiske.de
+Delivered-To: cweiske@cweiske.de
+X-Greylist: delayed 1778 seconds by postgrey-1.21 at d80-237-146-62.dds.hosteurope.de; Thu, 22 Jun 2006 18:07:43 CEST
+Received: from fallback-mx1.atl.registeredsite.com (fallback-mx1.atl.registeredsite.com [64.224.219.95])
+	by mail.cweiske.de (Postfix) with ESMTP id 92DF53F8A003
+	for <cweiske@cweiske.de>; Thu, 22 Jun 2006 18:07:43 +0200 (CEST)
+Received: from mail24.atl.registeredsite.com (mail24.atl.registeredsite.com [216.247.37.44])
+	by fallback-mx1.atl.registeredsite.com (8.12.11.20060308/8.12.11) with ESMTP id k5MFZecD006152
+	for <cweiske@cweiske.de>; Thu, 22 Jun 2006 11:35:40 -0400
+Received: from imta01a2.registeredsite.com (imta01a2.registeredsite.com [64.225.255.10])
+	by mail24.atl.registeredsite.com (8.12.11.20060308/8.12.11) with ESMTP id k5MFZaUT012752
+	for <cweiske@cweiske.de>; Thu, 22 Jun 2006 11:35:36 -0400
+Received: from [10.0.0.27] ([207.191.201.224])
+          by imta01a2.registeredsite.com with ESMTP
+          id <20060622153536.OUNZ4714.imta01a2.registeredsite.com@[10.0.0.27]>
+          for <cweiske@cweiske.de>; Thu, 22 Jun 2006 11:35:36 -0400
+Message-ID: <449AB8C7.1000104@abcdefg-test.com>
+Date: Thu, 22 Jun 2006 10:35:35 -0500
+From: Jay Vavra <jvavra@anderson-bogert.com>
+User-Agent: Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US; rv:1.8.0.4) Gecko/20060516 Thunderbird/1.5.0.4 Mnenhy/0.7.4.0
+MIME-Version: 1.0
+To: cweiske@cweiske.de
+Subject: dispMUA: new header
+Content-Type: text/plain; charset=ISO-8859-1; format=flowed
+Content-Transfer-Encoding: 7bit
+
+My own hands[TM]
+
+From - Thu Jun 22 22:10:17 2006
+X-Account-Key: account4
+X-UIDL: UID20419-1133961700
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+Return-Path: <u_ortmann@gmx.de>
+X-Original-To: cweiske@cweiske.de
+Delivered-To: cweiske@cweiske.de
+Received: from mail4.ewetel.de (mail4.ewetel.de [212.6.122.29])
+	by mail.cweiske.de (Postfix) with ESMTP id 9EB743F8A003
+	for <cweiske@cweiske.de>; Thu, 22 Jun 2006 22:02:25 +0200 (CEST)
+Received: from [192.168.178.25] (dynadsl-080-228-67-242.ewetel.net [80.228.67.242])
+	by mail4.ewetel.de (8.12.1/8.12.9) with ESMTP id k5MK2OS2006524
+	for <cweiske@cweiske.de>; Thu, 22 Jun 2006 22:02:24 +0200 (MEST)
+Message-ID: <449AF74D.3030803@gmx.de>
+Date: Thu, 22 Jun 2006 22:02:21 +0200
+From: Some Name <some_name@gmx.de>
+User-Agent: Thunderbird 1.5.0.4 (Windows/20060516)
+MIME-Version: 1.0
+To: cweiske@cweiske.de
+Subject: dispMUA: new header
+Content-Type: text/plain; charset=ISO-8859-15; format=flowed
+Content-Transfer-Encoding: 7bit
+X-CheckCompat: OK
+
+neXus MIME Mail - PHP/5.1.1
+
+From - Fri Jun 23 06:55:39 2006
+X-Account-Key: account4
+X-UIDL: UID20427-1133961700
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+Return-Path: <somebody@yandex.ru>
+X-Original-To: cweiske@cweiske.de
+Delivered-To: cweiske@cweiske.de
+X-Greylist: delayed 720 seconds by postgrey-1.21 at d80-237-146-62.dds.hosteurope.de; Fri, 23 Jun 2006 00:32:12 CEST
+Received: from mx18.yandex.ru (smtp2.yandex.ru [213.180.200.18])
+	by mail.cweiske.de (Postfix) with ESMTP id 0E7213F8A003
+	for <cweiske@cweiske.de>; Fri, 23 Jun 2006 00:32:12 +0200 (CEST)
+Received: from ip16.174.adsl.wplus.ru ([195.131.174.16]:54797 "EHLO
+	[195.131.174.16]" smtp-auth: "pluton131" TLS-CIPHER: <none>
+	TLS-PEER-CN1: <none>) by mail.yandex.ru with ESMTP id S3377100AbWFVWUF
+	(ORCPT <rfc822;cweiske@cweiske.de>); Fri, 23 Jun 2006 02:20:05 +0400
+X-Comment: RFC 2476 MSA function at smtp2.yandex.ru logged sender identity as: pluton131
+Message-ID: <449B1794.20706@yandex.ru>
+Date:	Fri, 23 Jun 2006 02:20:04 +0400
+From: Spari <somebody@yandex.ru>
+User-Agent: Mozilla/5.0 (Windows; U; Windows NT 5.1; ru; rv:1.8.0.4) Gecko/20060516 Mozilla Thunderbird/1.5 Mnenhy/0.7.4.0
+MIME-Version: 1.0
+To: cweiske@cweiske.de
+Subject: dispMUA: new header
+X-Enigmail-Version: 0.94.0.0
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+SMF
+
+From - Fri Jun 23 06:55:40 2006
+X-Account-Key: account4
+X-UIDL: UID20428-1133961700
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+Return-Path: <somebody@yandex.ru>
+X-Original-To: cweiske@cweiske.de
+Delivered-To: cweiske@cweiske.de
+Received: from mx18.yandex.ru (smtp2.yandex.ru [213.180.200.18])
+	by mail.cweiske.de (Postfix) with ESMTP id 8647F3F8A003
+	for <cweiske@cweiske.de>; Fri, 23 Jun 2006 00:32:13 +0200 (CEST)
+Received: from ip16.174.adsl.wplus.ru ([195.131.174.16]:55053 "EHLO
+	[195.131.174.16]" smtp-auth: "pluton131" TLS-CIPHER: <none>
+	TLS-PEER-CN1: <none>) by mail.yandex.ru with ESMTP id S3377170AbWFVWUX
+	(ORCPT <rfc822;cweiske@cweiske.de>); Fri, 23 Jun 2006 02:20:23 +0400
+X-Comment: RFC 2476 MSA function at smtp2.yandex.ru logged sender identity as: pluton131
+Message-ID: <449B17A6.3020608@yandex.ru>
+Date:	Fri, 23 Jun 2006 02:20:22 +0400
+From: Spari <somebody@yandex.ru>
+User-Agent: Mozilla/5.0 (Windows; U; Windows NT 5.1; ru; rv:1.8.0.4) Gecko/20060516 Mozilla Thunderbird/1.5 Mnenhy/0.7.4.0
+MIME-Version: 1.0
+To: cweiske@cweiske.de
+Subject: dispMUA: new header
+X-Enigmail-Version: 0.94.0.0
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+MailList Mailer
+
+From - Fri Jun 23 06:55:41 2006
+X-Account-Key: account4
+X-UIDL: UID20431-1133961700
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+Return-Path: <some_name@hotmail.com>
+X-Original-To: cweiske@cweiske.de
+Delivered-To: cweiske@cweiske.de
+Received: from hotmail.com (bay106-f1.bay106.hotmail.com [65.54.161.11])
+	by mail.cweiske.de (Postfix) with ESMTP id E94DD3F8A003
+	for <cweiske@cweiske.de>; Fri, 23 Jun 2006 01:50:37 +0200 (CEST)
+Received: from mail pickup service by hotmail.com with Microsoft SMTPSVC;
+	 Thu, 22 Jun 2006 16:50:35 -0700
+Message-ID: <BAY106-F1FBBDB5D5740D98DC0A38C8850@phx.gbl>
+Received: from 65.54.161.200 by by106fd.bay106.hotmail.msn.com with HTTP;
+	Thu, 22 Jun 2006 23:50:31 GMT
+X-Originating-IP: [202.183.243.131]
+X-Originating-Email: [upluto@hotmail.com]
+X-Sender: upluto@hotmail.com
+From: "Pluto ..." <some_name@hotmail.com>
+To: cweiske@cweiske.de
+Subject: dispMUA: new header
+Date: Fri, 23 Jun 2006 06:50:31 +0700
+Mime-Version: 1.0
+Content-Type: text/plain; format=flowed
+X-OriginalArrivalTime: 22 Jun 2006 23:50:35.0643 (UTC) FILETIME=[A7FDF4B0:01C69656]
+
+CME-V6.5.4.3; MSN
+
+_________________________________________________________________
+Express yourself instantly with MSN Messenger! Download today it's FREE! 
+http://messenger.msn.click-url.com/go/onm00200471ave/direct/01/
+
+
+From - Fri Jun 23 13:07:07 2006
+X-Account-Key: account4
+X-UIDL: UID20442-1133961700
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+Return-Path: <some@body.de>
+X-Original-To: cweiske@cweiske.de
+Delivered-To: cweiske@cweiske.de
+Received: from max000.maxhosting.de (max000.maxhosting.de [212.91.248.70])
+	by mail.cweiske.de (Postfix) with ESMTP id 42C223F8A003
+	for <cweiske@cweiske.de>; Fri, 23 Jun 2006 07:17:35 +0200 (CEST)
+Received: from [85.176.217.240] (helo=[192.168.2.120])
+	by max000.maxhosting.de with asmtp (Exim premium (Debian))
+	id 1Fte1j-0002Eh-00
+	for <cweiske@cweiske.de>; Fri, 23 Jun 2006 07:16:19 +0200
+Message-ID: <449B796A.3040807@toobusy.de>
+Date: Fri, 23 Jun 2006 07:17:30 +0200
+From: Mirko Keilwerth <some@body.de>
+User-Agent: Thunderbird 1.5.0.4 (Windows/20060516)
+MIME-Version: 1.0
+To: cweiske@cweiske.de
+Subject: dispMUA: new header
+Content-Type: text/plain; charset=ISO-8859-15; format=flowed
+Content-Transfer-Encoding: 7bit
+
+mainpean html2mail
+
+From - Fri Jun 23 13:07:16 2006
+X-Account-Key: account4
+X-UIDL: UID20458-1133961700
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+Return-Path: <mouse@mouseyz.com>
+X-Original-To: cweiske@cweiske.de
+Delivered-To: cweiske@cweiske.de
+Received: from s4859.smaitec.de (s48593.smaitec.de [212.112.231.136])
+	by mail.cweiske.de (Postfix) with ESMTP id D33C83F8A004
+	for <cweiske@cweiske.de>; Fri, 23 Jun 2006 09:11:42 +0200 (CEST)
+Received: from localhost (localhost [127.0.0.1])
+	by s4859.smaitec.de (Postfix) with ESMTP id C1C06468021
+	for <cweiske@cweiske.de>; Fri, 23 Jun 2006 09:11:12 +0200 (CEST)
+Received: from s4859.smaitec.de ([127.0.0.1])
+	by localhost (s4859.smaitec.de [127.0.0.1]) (amavisd-new, port 10024)
+	with ESMTP id 05015-06 for <cweiske@cweiske.de>;
+	Fri, 23 Jun 2006 09:11:12 +0200 (CEST)
+Received: from [192.168.178.24] (p548EBFA9.dip0.t-ipconnect.de [84.142.191.169])
+	by s4859.smaitec.de (Postfix) with ESMTP id 73E72468020
+	for <cweiske@cweiske.de>; Fri, 23 Jun 2006 09:11:12 +0200 (CEST)
+Message-ID: <449B9422.6060200@identity-compass.com>
+Date: Fri, 23 Jun 2006 09:11:30 +0200
+From: "Hello You" <mouse@mouseyz.com>
+User-Agent: Thunderbird 1.5.0.4 (Windows/20060516)
+MIME-Version: 1.0
+To: cweiske@cweiske.de
+Subject: dispMUA: new header
+Content-Type: text/plain; charset=ISO-8859-15; format=flowed
+Content-Transfer-Encoding: 7bit
+X-Virus-Scanned: by amavisd-new-20030616-p10 (Debian) at s4859.smaitec.de
+
+fPost 4.1 (C) 2004 SalesEmotion GmbH
+
+From - Fri Jun 23 13:07:17 2006
+X-Account-Key: account4
+X-UIDL: UID20460-1133961700
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+Return-Path: <staticc@xcvb.net>
+X-Original-To: cweiske@cweiske.de
+Delivered-To: cweiske@cweiske.de
+X-Greylist: delayed 17391 seconds by postgrey-1.21 at d80-237-146-62.dds.hosteurope.de; Fri, 23 Jun 2006 09:30:11 CEST
+Received: from mx-fall.zoominternet.net (mx-fall.zoominternet.net [24.154.1.28])
+	by mail.cweiske.de (Postfix) with ESMTP id 920583F8A004
+	for <cweiske@cweiske.de>; Fri, 23 Jun 2006 09:30:11 +0200 (CEST)
+Received: from mx-8.zoominternet.net ([10.16.16.27])
+	by mx-fall.zoominternet.net (8.12.11/8.12.11) with ESMTP id k5N2eKEi025255
+	for <cweiske@cweiske.de>; Thu, 22 Jun 2006 22:40:21 -0400
+Received: from mua-4.zoominternet.net (mua-4.zoominternet.net [24.154.1.47])
+	by mx-8.zoominternet.net (8.13.1/8.13.1) with ESMTP id k5N2e8BU030513
+	for <cweiske@cweiske.de>; Thu, 22 Jun 2006 22:40:12 -0400
+Received: from [127.0.0.1] (unknown [24.239.116.162])
+	by mua-4.zoominternet.net (Postfix) with ESMTP id 4D6187F403
+	for <cweiske@cweiske.de>; Thu, 22 Jun 2006 22:40:12 -0400 (EDT)
+Message-ID: <449B5496.5010505@zoominternet.net>
+Date: Thu, 22 Jun 2006 22:40:22 -0400
+From: Christopher Kindergarten <staticc@xcvb.net>
+User-Agent: Thunderbird 1.5.0.4 (Windows/20060516)
+MIME-Version: 1.0
+To: cweiske@cweiske.de
+Subject: dispMUA: new header
+Content-Type: text/plain; charset=ISO-8859-1; format=flowed
+Content-Transfer-Encoding: 7bit
+X-Antivirus: avast! (VPS 0625-6, 06/22/2006), Outbound message
+X-Antivirus-Status: Clean
+X-Spam-Score: 0.00 () [Tag at 15.00] 
+X-CanItPRO-Stream: outgoing
+X-Scanned-By: CanIt (www . roaringpenguin . com) on 24.154.1.27
+
+CME-V6.5.4.3; MSN
+
+From - Fri Jun 23 13:07:20 2006
+X-Account-Key: account4
+X-UIDL: UID20466-1133961700
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+Return-Path: <mama@papa.gr>
+X-Original-To: cweiske@cweiske.de
+Delivered-To: cweiske@cweiske.de
+X-Greylist: delayed 721 seconds by postgrey-1.21 at d80-237-146-62.dds.hosteurope.de; Fri, 23 Jun 2006 10:47:29 CEST
+Received: from greco2.grecotel.gr (greco2.grecotel.gr [213.249.61.40])
+	by mail.cweiske.de (Postfix) with ESMTP id 27A3B3F8A003
+	for <cweiske@cweiske.de>; Fri, 23 Jun 2006 10:47:29 +0200 (CEST)
+Received: from [10.8.1.99] ([10.8.1.99]) by greco2.grecotel.gr with Microsoft SMTPSVC(5.0.2195.6713);
+	 Fri, 23 Jun 2006 11:38:59 +0300
+Message-ID: <449BA7DD.6090506@panafonet.gr>
+Date: Fri, 23 Jun 2006 11:35:41 +0300
+From: Mama Papa <mama@papa.gr>
+User-Agent: Thunderbird 1.5.0.4 (Windows/20060516)
+MIME-Version: 1.0
+To: cweiske@cweiske.de
+Subject: dispMUA: new header
+X-Enigmail-Version: 0.94.0.0
+Content-Type: text/plain; charset=ISO-8859-7
+Content-Transfer-Encoding: 7bit
+X-OriginalArrivalTime: 23 Jun 2006 08:38:59.0698 (UTC) FILETIME=[7914D520:01C696A0]
+
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+MSCRM Version 1.0
+- --
+
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.0 (MingW32)
+
+iD8DBQFEm6fdpu0NeBnSiRkRAndqAJ9E3eSBBSO+Upov8FgAla55O6wo5gCfRnbG
+MgfiX593mPBVC7gedPoXOSc=
+=sKvo
+-----END PGP SIGNATURE-----
+
+From - Fri Jun 23 13:07:21 2006
+X-Account-Key: account4
+X-UIDL: UID20468-1133961700
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+Return-Path: <dais@sonett.jp>
+X-Original-To: cweiske@cweiske.de
+Delivered-To: cweiske@cweiske.de
+X-Greylist: delayed 1417 seconds by postgrey-1.21 at d80-237-146-62.dds.hosteurope.de; Fri, 23 Jun 2006 11:33:24 CEST
+Received: from mgate25.so-net.ne.jp (mgate25.so-net.ne.jp [202.238.84.125])
+	by mail.cweiske.de (Postfix) with ESMTP id 55CAC3F8A003
+	for <cweiske@cweiske.de>; Fri, 23 Jun 2006 11:33:23 +0200 (CEST)
+Received: from mx51.ms.so-net.ne.jp (mx51.ms.so-net.ne.jp [202.238.83.1])
+	by mgate25.so-net.ne.jp  with ESMTP id k5N99XfD007824
+	for <cweiske@cweiske.de>; Fri, 23 Jun 2006 18:09:33 +0900 (JST)
+Received: from [127.0.0.1] (p6e57cf.sigant01.ap.so-net.ne.jp [218.110.87.207])
+	by mx51.ms.so-net.ne.jp  with ESMTP id k5N993dV010879
+	for <cweiske@cweiske.de>; Fri, 23 Jun 2006 18:09:15 +0900 (JST)
+Message-ID: <449BAFB1.1010707@cf7.so-net.ne.jp>
+Date: Fri, 23 Jun 2006 18:09:05 +0900
+From: Daigo <dais@sonett.jp>
+Reply-To: dais@sonett.jp
+User-Agent: Thunderbird 1.5.0.4 (Windows/20060516)
+MIME-Version: 1.0
+To: cweiske@cweiske.de
+Subject: dispMUA: new header
+Content-Type: text/plain; charset=ISO-2022-JP
+Content-Transfer-Encoding: 7bit
+
+http://www.postblitz.net
+
+
+From - Fri Jun 23 15:00:31 2006
+X-Account-Key: account4
+X-UIDL: UID20488-1133961700
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+Return-Path: <oliver@somehost.de>
+X-Original-To: cweiske@cweiske.de
+Delivered-To: cweiske@cweiske.de
+X-Greylist: delayed 1163 seconds by postgrey-1.21 at d80-237-146-62.dds.hosteurope.de; Fri, 23 Jun 2006 14:55:54 CEST
+Received: from natreg.rzone.de (natreg.rzone.de [81.169.145.183])
+	by mail.cweiske.de (Postfix) with ESMTP id 7CC253F8A003
+	for <cweiske@cweiske.de>; Fri, 23 Jun 2006 14:55:53 +0200 (CEST)
+Received: from [192.168.0.26] (p5498564A.dip.t-dialin.net [84.152.86.74])
+	(authenticated bits=0)
+	by post.webmailer.de (8.13.6/8.13.6) with ESMTP id k5NCaS4g019393
+	for <cweiske@cweiske.de>; Fri, 23 Jun 2006 14:36:29 +0200 (MEST)
+Message-ID: <449BE050.8010302@somehost.de>
+Date: Fri, 23 Jun 2006 14:36:32 +0200
+From: Oliver Olli <oliver@somehost.de>
+User-Agent: Mozilla/5.0 (Windows; U; Windows NT 5.1; de; rv:1.8.0.4) Gecko/20060516 Thunderbird/1.5.0.4 Mnenhy/0.7.4.0
+MIME-Version: 1.0
+To: cweiske@cweiske.de
+Subject: dispMUA: new header
+X-Enigmail-Version: 0.94.0.0
+Content-Type: text/plain; charset=ISO-8859-15
+Content-Transfer-Encoding: 7bit
+
+BueroWARE MailClient 1.0.241
+
+(aus Angebotstool Fa. gotomaxx.de)
+

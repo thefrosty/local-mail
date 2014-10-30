@@ -7,7 +7,7 @@ class Local_Mail {
 	/** Singleton *************************************************************/
 	private static $instance;
 	
-	private $mail;
+	var $mail;
 
 	/**
 	 * Main Instance
@@ -54,6 +54,72 @@ class Local_Mail {
 			$url .= ( $_SERVER["SERVER_PORT"] !== 80 ) ? ":" . $_SERVER["SERVER_PORT"] : "";
 			echo '<meta http-equiv="refresh" content="4; url=' . $url . '">';
 		}
+	}
+	
+	/** Read @mBox */
+	function read() {
+		
+		/** CLASSES **/
+		if ( !class_exists( 'PEAR' ) ) {
+			require_once ( 'classes/PEAR-1.9.5/PEAR.php' );
+		}
+		
+		if ( !class_exists( 'Mail_Mbox' ) ) {
+			require_once ( 'classes/Mail/Mbox.php' );
+		}
+		
+		$fileCleared = false;
+		
+		// Clear file?
+		if ( $this->is_cleared() ) {
+			$handle = fopen( $this->mail, "w" );
+			fclose( $handle );
+			$fileCleared = true;
+		}
+		
+		if ( $fileCleared ) {
+			echo '<p><em>Cleared.</em></p>';
+			return;
+		}
+		
+		//reads a mbox file		
+		$mbox	= new Mail_Mbox( $this->mail );
+		$mbox->open();
+		$count	= $mbox->size();
+		
+		if ( 0 == $count ) {
+			echo '<p>#EmailZero!</p>';
+			return;
+		}
+			
+		echo "<p style='border-bottom:1px solid #efefef; padding-bottom:8px'>\n";
+		
+		printf( '%s email%s %s',
+			$count,
+			1 == $count ? '' : 's',
+			' [ <strong><a href="?clear_all=true" onclick="return confirm(\'Are you sure?\');">CLEAR ALL</a></strong> ]'
+		);
+		
+		echo "</p>\n";
+		
+		echo "<div style='height:100%;overflow-y:scroll;padding:0;background-color:#faf9f7;border:1px solid #ccc;'>\n";
+		
+		for ( $n = 0; $n < $count; $n++ ) {
+			$message	= $mbox->get( $n );
+			preg_match( '/Subject: (.*)$/m', $message, $matches );
+			$subject	= $matches[1];			
+			$style		= ( $n % 2 === 0 ) ? 'background-color:#efefef;' : 'background-color:#f9f9f9;';
+			$num		= $n + 1;
+			
+			echo "<div style='border-top:1px solid #DEDEDE;padding:10px 20px;$style'>";
+			echo "<strong>Mail #$num: $subject</strong>\n";
+			echo "<pre>$message</pre>\n";
+			echo "</div>\n";
+		}
+		
+		$mbox->close();
+		
+		echo "</div>\n";
 	}
 
 	/** HTML */
@@ -158,11 +224,12 @@ LOCAL_MAIL();
 
         <div class="main-container">
             <div class="main wrapper clearfix">
-                <h3>Local E-Mail</h3>
-                <?php LOCAL_MAIL()->output(); ?>
+                <h3><?php printf( 'Local E-Mail <small><em>from</em> <code>%s</code></small>', LOCAL_MAIL()->mail ); ?></h3>
+                <?php LOCAL_MAIL()->read(); ?>
                 
                 <footer>
-                	<p>Built by <a href="http://austin.passy.co">Frosty</a></p>
+                	<p>Built by <a href="http://austin.passy.co">Austin Passy</a></p>
+					<a href="https://github.com/thefrosty/local-mail"><img style="position: absolute; top: 0; right: 0; border: 0;" src="https://camo.githubusercontent.com/38ef81f8aca64bb9a64448d0d70f1308ef5341ab/68747470733a2f2f73332e616d617a6f6e6177732e636f6d2f6769746875622f726962626f6e732f666f726b6d655f72696768745f6461726b626c75655f3132313632312e706e67" alt="Fork me on GitHub" data-canonical-src="https://s3.amazonaws.com/github/ribbons/forkme_right_darkblue_121621.png"></a>
                 </footer>
 
             </div> <!-- #main -->
